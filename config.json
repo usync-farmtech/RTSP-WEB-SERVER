@@ -4,10 +4,29 @@
     "ice_servers": ["stun:stun.l.google.com:19302"]
   },
   "streams": {
-    "H264_AAC": {
-      "on_demand": false,
-      "disable_audio": true,
-      "url": "rtsp://admin:admin@176.117.205.3:5541/video1"
-    }
+      "demo1": {
+        "on_demand" : false,
+        "url": "rtsp://77.110.228.219/axis-media/media.amp"
+      },
+      "demo2": {
+        "on_demand" : true,
+        "url": "rtsp://37.157.51.30/axis-media/media.amp"
+      },
+      "demo3": {
+        "on_demand" : false,
+        "url": "rtsp://97.68.104.34/axis-media/media.amp"
+      },
+      "demo4": {
+        "on_demand" : false,
+        "url": "rtsp://132.239.12.145:554/axis-media/media.amp"
+      },
+      "demo5": {
+        "on_demand" : false,
+        "url": "rtsp://176.139.87.16/axis-media/media.amp"
+      },
+      "demo6": {
+        "on_demand" : false,
+        "url": "rtsp://stream.strba.sk:1935/strba/VYHLAD_JAZERO.stream"
+      }
   }
 }
